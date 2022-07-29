@@ -48,7 +48,7 @@ function itemsAddition(){
     setTimeout(inactiveAnimation, 3000);
 
     item.addEventListener('click', () => {
-        item.classList.add('itemsToBuyDeleted');
+        item.classList.toggle('itemsToBuyDeleted');
     })
 
     item.addEventListener('dblclick', () => {
