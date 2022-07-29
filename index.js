@@ -8,7 +8,20 @@ function hints(){
         }   
     })
 }
-setTimeout(hints, 1000);
+
+
+const infoBtn = document.querySelector('.infoBtn');
+infoBtn.addEventListener('click', hints);
+
+function animatedBtn(){
+    infoBtn.classList.add('animate__animated', 'animate__tada', 'animate__repeat-2');
+}
+
+function inactiveAnimation(){
+    infoBtn.classList.remove('animate__animated', 'animate__tada', 'animate__repeat-2');
+
+}
+
 
 
 const inputField = document.querySelector('.inputField');
@@ -31,6 +44,8 @@ function itemsAddition(){
     item.classList.add('itemsToBuyAdded');
     toBuyList.appendChild(item);
     inputField.value='';
+    setTimeout(animatedBtn, 1000);
+    setTimeout(inactiveAnimation, 3000);
 
     item.addEventListener('click', () => {
         item.classList.add('itemsToBuyDeleted');

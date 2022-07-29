@@ -113,6 +113,32 @@ button.swal2-styled.swal2-confirm {
 
 }
 
+#infoBtnDiv {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.infoBtn {
+    font-family: 'Arial';
+    margin-left: 5px;
+    font-size: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: #019267;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #019267;
+    background-color: rgba(255, 254, 254, 0.746);
+    /* display: none; */
+}
+
+.infoBtn:hover {
+    background: #019267;
+    color: #ffffff;
+}
 
 @media all and (max-width:800px) {
     #mainDiv {
