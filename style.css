@@ -100,6 +100,19 @@ h1 {
     color: #90c5b6;
 }
 
+.swal2-container.swal2-center>.swal2-popup {
+    border-radius: 10%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+button.swal2-styled.swal2-confirm {
+    background-color: #019267;
+    border: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+
 
 @media all and (max-width:800px) {
     #mainDiv {

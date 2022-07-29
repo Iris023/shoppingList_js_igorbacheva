@@ -8,7 +8,7 @@ function hints(){
         }   
     })
 }
-setTimeout(hints, 9000);
+setTimeout(hints, 1000);
 
 
 const inputField = document.querySelector('.inputField');
