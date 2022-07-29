@@ -1,8 +1,8 @@
 function hints(){
     Swal.fire({
+        icon: 'info',
         title: 'Подсказки',
         text: 'Нажми один раз на добавленный продукт - он зачеркнётся. Двойное нажатие - удалит его',
-        icon: 'info',
         hideClass: {
             popup: 'animate__animated animate__fadeOutUp'
         }   

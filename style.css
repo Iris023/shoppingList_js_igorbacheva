@@ -76,13 +76,12 @@ h1 {
 .toBuyList {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-family: 'Oswald', sans-serif;
     border-radius: 30px;
-        background-color: rgb(255 254 254 / 89%);
+    background-color: rgb(255 254 254 / 89%);
     margin-left: 30%;
     margin-right: 30%;
+    flex-wrap: wrap;
 }
 
 .itemsToBuyAdded {
