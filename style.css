@@ -1,0 +1,155 @@
+body {
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #2B2B2B;
+}
+
+#header, #mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    border-radius: 30px;
+    background-color: rgba(255, 254, 254, 0.63);
+    margin-top: 35px;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 120px;
+    transition: all ease 0.35s;
+}
+
+
+#mainDiv {
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+h1 {
+    color: #b3022e;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.inputField {
+    font-size: 25px;
+    color: #0C7B93;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 20px;
+    width: 70%;
+    padding: 0 0 5px 20px;
+    border: 1px solid #019267;
+    letter-spacing: 0.3px;
+}
+
+.inputField:focus {
+    outline: none !important;
+    background: #019267;
+    color: #ffffff;
+}
+
+
+.btn {
+    font-family: 'Arial';
+    margin-left: 5px;
+    font-size: 25px;
+    padding-right: 16px;
+    padding-left: 16px;
+    color: #019267;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #019267;
+    background-color: rgba(255, 254, 254, 0.952);
+}
+
+.btn:hover {
+    background: #019267;
+    color: #ffffff;
+}
+
+.toBuyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 30px;
+        background-color: rgb(255 254 254 / 89%);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.itemsToBuyAdded {
+    font-size: 30px;
+    color: #019267;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 10px;
+}
+
+.itemsToBuyDeleted {
+    font-size: 25px;
+    text-decoration: line-through #90c5b6;
+    color: #90c5b6;
+}
+
+
+@media all and (max-width:800px) {
+    #mainDiv {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #header {
+        margin-top: 45px;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .toBuyList {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .btn {
+        margin-left: 10px;
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width:500px) {
+    #mainDiv {
+        margin-left: 5%;
+        margin-right: 0%;
+    }
+
+    #header {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .btn {
+        font-size: 30px;
+        height: 50px;
+    }
+
+    .toBuyList {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+}
