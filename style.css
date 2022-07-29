@@ -95,7 +95,7 @@ h1 {
 
 .itemsToBuyDeleted {
     font-size: 25px;
-    text-decoration: line-through #90c5b6;
+    text-decoration: line-through #90c5b6 !important;
     color: #90c5b6;
 }
 
