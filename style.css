@@ -132,7 +132,6 @@ button.swal2-styled.swal2-confirm {
     border-radius: 50%;
     border: 1px solid #019267;
     background-color: rgba(255, 254, 254, 0.746);
-    /* display: none; */
 }
 
 .infoBtn:hover {
